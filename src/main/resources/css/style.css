@@ -1,0 +1,35 @@
+.root{
+    -fx-font-family: 'Source Sans Pro', sans-serif;
+    -fx-background: #F9F9FC;
+}
+
+.left-btn {
+    -fx-background-color: #0078BC;
+    -fx-text-fill: #c5dee4;
+}
+
+.left-btn:hover {
+    -fx-text-fill: #F9F9FC;
+}
+
+.left-btn:hover .glyph-icon {
+    -fx-fill: #F9F9FC;
+}
+
+
+.left-btn-selected {
+    -fx-background-color: #003056;
+    -fx-text-fill: #F9F9FC;
+}
+
+
+.main-pane {
+    -fx-border-width:0px 0px 1px 0px;
+    -fx-border-color: #21547F;
+}
+
+.border-box {
+    -fx-border-width:1px;
+    -fx-border-color: #21547F;
+    -fx-border-radius: 3px;
+}
